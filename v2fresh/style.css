@@ -1,0 +1,126 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Heading styles */
+  .heading {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Textbox styles */
+  .textbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  .textbox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #input-textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button panel styles */
+  .button-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .play-button,
+  .settings-button,
+  .newtext-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .slider-container {
+    width: 200px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+    cursor: grab;
+    user-select: none;
+  }
+  
+  .slider {
+    width: 0;
+    height: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: sliderAnimation 5s linear infinite;
+  }
+  
+  @keyframes sliderAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  /* Additional styles */
+  /* ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+  } */
+  
+
+  /* Rest of your CSS code */
+
+.seeker {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 10px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    z-index: 1;
+  }
+  

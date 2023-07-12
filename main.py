@@ -13,3 +13,4 @@ for i in range(len(word_list)):
     time.sleep(time_)
 
 
+

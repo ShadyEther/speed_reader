@@ -1,0 +1,174 @@
+.textbox{
+
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: 370px;
+    top: 123px;
+    
+    background: #969696;
+    border-radius: 25px;
+}
+#textarea1{
+    display: flex;
+    text-indent: 30px;
+position: absolute;
+width: 600px;
+height: 400px;
+left: 420px;
+top: 173px;
+
+background: #D0C8C8;
+border-radius: 25px;
+resize: none;
+font-size:xx-large;
+}
+
+.start_button{
+    position: absolute;
+width: 400px;
+height: 100px;
+left: 520px;
+top: 665px;
+
+background: #D9D9D9;
+border-radius: 100px;
+
+font-family:'Courier New', Courier, monospace;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+align-items: center;
+display: flex;
+justify-content: center;
+/* text-align: center; */
+/* vertical-align:middle; */
+
+color: #7C3542;
+
+}
+.start_button:hover{
+    background: #bdbdbd;
+    cursor: pointer;
+}
+
+
+
+#display_text{
+    display: none;
+    position: absolute;
+width: 500px;
+height: 300px;
+left: 476px;
+top: 212px;
+
+align-items: center;
+justify-content: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+background-color: azure;
+border-radius: 25px;
+color: #000000;
+}
+
+
+.play_button{
+
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 425px;
+top: 719px;
+display: none;
+cursor: pointer;
+
+}
+
+.pause_button{
+    display:none;
+    position: absolute;
+width: 41px;
+height: 50px;
+left: 425px;
+top: 724px;
+}
+
+.seeker{
+    display:none;
+}
+
+.slider{
+    display: none;
+    position: absolute;
+width: 400px;
+height: 10px;
+left: 495px;
+top: 744px;
+
+background: #644D4D;
+}
+
+.settings{
+    display: none;
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 910px;
+top: 719px;
+}
+
+.new{
+    display: none;
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 993px;
+top: 724px;
+}
+.play_box{
+    display: none;
+    position: absolute;
+width: 700px;
+height: 100px;
+left: 370px;
+top: 699px;
+background: #DABBBB;
+border-radius: 100px;
+}
+
+.setwpm_overlay{
+    display: flex;
+    position: relative;
+width: 300px;
+height: 100px;
+left: 800px;
+top: 800px;
+justify-content: center;
+align-items: center;
+padding: 30px;
+text-indent: 10px;
+background: rgba(190, 185, 185, 0.39);
+border-radius: 40px;
+font-size: larger;
+}
+.setwpm_input{
+    position:static;
+width: 100px;
+height: 34px;
+left: 200px;
+top: 33px;
+margin-left: 20px;
+justify-content: center;
+align-items: center;
+text-indent: 10px;
+text-overflow: clip;
+
+background: #D9D9D9;
+border-radius: 50px;
+}

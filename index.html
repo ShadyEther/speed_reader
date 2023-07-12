@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> speed reader </title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="textbox"></div>
+  <div><textarea id="textarea1" name="Enter your text here" id="" cols="70" rows="30"></textarea></div>
+
+  <div onclick="start_spreeding()" class="start_button" id="start_button">START SPREEDING</div>
+  <div class="setwpm_overlay">
+    Set words per minute
+    <input class="setwpm_input" type="number">
+
+  </div>
+  </div>
+  <div>
+    <div>
+      <div id="display_text"></div>
+      <div class="play_box" id="play_box"></div>
+      <img onclick="play()" class="play_button" id="play_button" src="ASSETS/Polygon 1.png" title="PLAY">
+      <img onclick="pause()" class="pause_button" id="pause_button" src="ASSETS/Group 1.png" title="PAUSE">
+      <img class="seeker" id="seeker" src="ASSETS/Ellipse 1.png">
+      <div class="slider" id="slider"></div>
+      <img onclick="setwpm()" class="settings" id="settings" src="ASSETS/Group 2.png">
+      <img onclick="new_()" class="new" id="new" src="ASSETS/Group 3.png">
+    </div>
+  </div>
+</body>
+
+</html>
