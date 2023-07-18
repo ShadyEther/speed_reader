@@ -1,6 +1,6 @@
             "Increasing your speed means making your mind and body more alert, and therefore more likely to keep going strong for longer periods of time." <br> <br> 
 
-By focussing one word at a time we can read more faster.. <br> <br> 
+By focussing one word at a time we can read more faster..
 
 Trust me it works... <br> <br> 
 
