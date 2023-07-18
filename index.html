@@ -1,39 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title> speed reader </title>
-  <link rel="stylesheet" href="style.css">
-
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speed Reader v2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
-  <div class="textbox"></div>
-  <div><textarea id="textarea1" name="Enter your text here" id="" cols="70" rows="30"></textarea></div>
+    <!-- Heading section -->
 
-  <div onclick="start_spreeding()" class="start_button" id="start_button">START SPREEDING</div>
-  <div class="setwpm_overlay">
-    Set words per minute
-    <input class="setwpm_input" type="number">
+    <header class="heading">
+        <h1>Speed Reader</h1>
+    </header>
 
-  </div>
-  </div>
-  <div>
-    <div>
-      <div id="display_text"></div>
-      <div class="play_box" id="play_box"></div>
-      <img onclick="play()" class="play_button" id="play_button" src="ASSETS/Polygon 1.png" title="PLAY">
-      <img onclick="pause()" class="pause_button" id="pause_button" src="ASSETS/Group 1.png" title="PAUSE">
-      <img class="seeker" id="seeker" src="ASSETS/Ellipse 1.png">
-      <div class="slider" id="slider"></div>
-      <img onclick="setwpm()" class="settings" id="settings" src="ASSETS/Group 2.png">
-      <img onclick="new_()" class="new" id="new" src="ASSETS/Group 3.png">
+    <!-- Textbox section -->
+    <div class="textbox-container">
+        <div class="textbox">
+            <textarea id="input-textarea" >enter your text here</textarea>
+        </div>
     </div>
-  </div>
+
+    <!-- inital start spreeding button -->
+    <div class="start-spreeding-button">
+        <div id="start-spreeding-button">Spreed</div>
+    </div>
+
+    <!-- button panel -->
+    <div class="button-panel-container">
+    <div id="button-panel">
+        <div id="play-button" >
+            <span class="material-symbols-rounded">
+                play_arrow
+                </span>
+        </div>
+
+        <div id="pause-button">
+            <span class="material-symbols-rounded">
+                pause
+                </span>
+        </div>
+
+        <div class="slider-container">
+            <input id="seeker" type="range" min="-1" value="-1">
+        </div>
+
+        <div id ="settings-button">
+            <span class="material-symbols-rounded">
+                settings
+                </span>
+        </div>
+
+        <div id="settings-popup-container">
+            <div id="settings-content">
+                <span>Set words per minute (wpm)</span><br><input id = "wpminput" type="number" value="200">
+                <br>
+                <div id="settings-close-button">
+                    Okay
+                </div>
+            </div>
+        </div>
+
+        <div id="new-text-button">
+            <span class="material-symbols-rounded">
+                add
+                </span>
+            
+        </div>
+            
+        
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
