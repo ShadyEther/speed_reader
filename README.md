@@ -1,15 +1,13 @@
-"Increasing your speed means making your mind and body more alert, and therefore more likely to keep going strong for longer periods of time."
+            "Increasing your speed means making your mind and body more alert, and therefore more likely to keep going strong for longer periods of time." <br> <br> 
 
-By focussing one word at a time we can read more faster..
+By focussing one word at a time we can read more faster.. <br> <br> 
 
-Trust me it works...
+Trust me it works... <br> <br> 
 
-How to use it?..
-do one thing..
+How to use it?.. do one thing.. <br> <br> 
 
-put your text in the text file..and run the main.py...and baam
+put your text in the text box..and press 'Spreed' <br> <br> 
 
-set you wpm(words per minute)..and read with your heart..
+set your wpm(words per minute)..and read with your heart.. <br> <br> 
 
-more improvements coming soon.... :)
-
+more improvements coming soon.... :)<br> <br> 
