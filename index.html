@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>speed Reader v2</title>
+    <title>The Speed Reader</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
-    <!-- Heading section -->
 
     <header class="heading">
         <h1>Speed Reader</h1>
+        <a href="https://github.com/ShadyEther/speed_reader"><img src="github-mark-white.svg"></a>
     </header>
 
     <div class="brief">
@@ -34,39 +33,37 @@ more improvements coming soon.... :)<br> <br>
         </span>
     </div>
 
-    <!-- Textbox section -->
+    
     <div class="textbox-container">
-        <div class="textbox">
-            <textarea id="input-textarea" >enter your text here</textarea>
-        </div>
+            <textarea id="input-textarea" placeholder="enter your text here"></textarea>
     </div>
 
-    <!-- inital start spreeding button -->
+    
     <div class="start-spreeding-button">
-        <div id="start-spreeding-button">Spreed</div>
+        <div id="start-spreeding-button" title="start spreeding">Spreed</div>
     </div>
 
     <!-- button panel -->
     <div class="button-panel-container">
     <div id="button-panel">
         <div id="play-button" >
-            <span class="material-symbols-rounded">
+            <span class="material-symbols-rounded" title="play">
                 play_arrow
                 </span>
         </div>
 
         <div id="pause-button">
-            <span class="material-symbols-rounded">
+            <span class="material-symbols-rounded" title="pause">
                 pause
                 </span>
         </div>
 
         <div class="slider-container">
-            <input id="seeker" type="range" min="-1" value="-1">
+            <input id="seeker" type="range" min="-1" value="-1" >
         </div>
 
         <div id ="settings-button">
-            <span class="material-symbols-rounded">
+            <span class="material-symbols-rounded" title="settings">
                 settings
                 </span>
         </div>
@@ -82,7 +79,7 @@ more improvements coming soon.... :)<br> <br>
         </div>
 
         <div id="new-text-button">
-            <span class="material-symbols-rounded">
+            <span class="material-symbols-rounded" title="new text">
                 add
                 </span>
             
